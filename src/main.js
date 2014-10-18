@@ -9,4 +9,4 @@ function loop ()
   $.ajax("/luminosidad").done(cambiarLuminosidad);
 }
 
-setInterval(loop, 1000);
+setInterval(loop, 100);

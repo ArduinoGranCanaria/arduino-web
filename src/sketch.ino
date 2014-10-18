@@ -5,7 +5,7 @@ void setup()
 
 void loop()
 {
-  int luz = analogRead(2);
+  int luz = analogRead(0);
   Serial.println(luz);
-  delay(1000);
+  delay(100);
 }

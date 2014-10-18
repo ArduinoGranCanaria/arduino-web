@@ -14,6 +14,7 @@ def js(script):
 
 @app.route("/luminosidad")
 def luminosidad():
+  arduino.write("GET\n")
   luz = arduino.readline()
   return luz
 

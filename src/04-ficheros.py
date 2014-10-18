@@ -12,4 +12,4 @@ def index():
 def js(script):
   return send_from_directory('/home/aruiz/src/arduino-web/src/', script)
 
-app.run (host='localhost',  port=8080, debug=True)
+app.run (host='localhost',  port=8080)

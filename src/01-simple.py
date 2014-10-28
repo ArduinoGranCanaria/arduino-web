@@ -12,4 +12,4 @@ def index():
   
   return "<html><body>potenciometro: " + luz + "</body><html>"
 
-app.run (host='localhost',  port=8080)
+app.run (host='localhost',  port=8080, debug=True)
